@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FlexKneeAI</string>
+
+    <!-- Camera Permission Screen -->
+    <string name="camera_permission_title">Enable Camera Access</string>
+    <string name="camera_permission_description">FlexKnee AI needs access to your camera to track your knee movement and measure your range of motion accurately.</string>
+    <string name="privacy_first_title">Privacy First</string>
+    <string name="privacy_first_description">Video is processed locally on your device. No video footage is ever recorded or uploaded to the cloud.</string>
+    <string name="allow_camera_access_button">Allow Camera Access</string>
+
+    <!-- Setup Guide Screen -->
+    <string name="setup_guide_title">Setup Guide</string>
+    <string name="setup_guide_card_1_title">Position Your Phone</string>
+    <string name="setup_guide_card_1_desc">Place your phone on the floor or a low table, leaning against a wall, about 5-6 feet away from you.</string>
+    <string name="setup_guide_card_2_title">Check Lighting</string>
+    <string name="setup_guide_card_2_desc">Ensure the room is well-lit. Avoid standing directly in front of a bright window (backlighting).</string>
+    <string name="setup_guide_card_3_title">Side Profile</string>
+    <string name="setup_guide_card_3_desc">Stand sideways to the camera so your knee joint is clearly visible during the exercise.</string>
+    <string name="setup_guide_button">I\'m Ready</string>
+
+    <!-- Login Screen -->
+    <string name="enter_email_placeholder">Enter your email</string>
+    <string name="enter_password_placeholder">••••••••</string>
+</resources>
