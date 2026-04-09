@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Account - FlexKnee AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Delete Your Account</h1>
+
+<p>If you want to delete your FlexKnee AI account, please follow the steps below:</p>
+
+<ol>
+    <li>Email us at support@flexkneeai.com</li>
+    <li>Use subject: "Delete My Account"</li>
+    <li>Include your registered email ID</li>
+</ol>
+
+<p>Or click below to send a request:</p>
+
+<button onclick="sendRequest()">Request Account Deletion</button>
+
+<script>
+function sendRequest() {
+    window.location.href = "mailto:support@flexkneeai.com?subject=Delete My Account";
+}
+</script>
+
+</body>
+</html>
